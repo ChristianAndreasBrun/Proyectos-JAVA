@@ -1,0 +1,34 @@
+package brun.christian.damw.m03.uf02.c03.p01.view;
+
+import java.util.Scanner;
+
+import brun.christian.damw.m03.uf02.c03.p01.model.domain.Cubo;
+
+public class FiguraView {
+
+	public float getCubo() 
+	{
+		float arista = getDatoFloat("Introduce la arista: ");
+		Cubo cubo = new Cubo(arista);
+		cubo.setArtista(arista);
+		return arista;
+	}
+	
+	
+	
+	
+	
+	public void mostrarInformacion(String mensaje) 
+	{
+		System.out.println(mensaje);
+	}
+
+	private float getDatoFloat(String mensaje) 
+	{
+		System.out.println(mensaje);
+		Scanner scanner = new Scanner(System.in);
+		float valor = scanner.nextFloat();
+		return valor;
+
+	}
+}

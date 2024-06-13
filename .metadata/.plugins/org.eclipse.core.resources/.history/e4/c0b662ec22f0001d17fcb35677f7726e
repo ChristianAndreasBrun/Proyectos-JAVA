@@ -1,0 +1,16 @@
+package brun.christian.damw.m03.uf02.c03.p01.controller;
+
+import brun.christian.damw.m03.uf02.c03.p01.view.FiguraView;
+import brun.christian.damw.m03.uf02.c03.p01.model.domain.Cubo;
+import brun.christian.damw.m03.uf02.c03.p01.model.domain.Esfera;
+
+public class Figura3DController {
+
+	public void Cubo() 
+	{
+		FiguraView figuraView = new FiguraView();
+		Cubo cubo = figuraView.getCubo();
+		float area = cubo.calcularAreaFigura();
+		figuraView.mostrarInformacion("El area del cubo es: " + area);
+	}
+}

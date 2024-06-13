@@ -1,0 +1,25 @@
+package brun.christian.damw.m03.uf02.c03.p01.model.domain;
+
+public class Cubo extends FiguraGeometrica3D {
+
+	private float arista;
+	
+	
+	public Cubo(float arista)
+	{
+		this.arista = arista;
+	}
+	
+	public flaot setArista() 
+	{
+		return arista;
+	}
+	
+	
+	@Override
+	public float calcularAreaFigura() {
+		
+		return 0;
+	}
+
+}

@@ -1,0 +1,31 @@
+package brun.christian.damw.m03.uf02.t01.model.domain;
+
+public class Esfera extends FiguraGeometrica3D {
+
+	private float radio;
+	private final float PI = 3.141592f;
+	
+	
+	public Esfera(float radio)
+	{
+		this.radio = radio;
+	}
+	
+	public float getRadio()
+	{
+		return radio;
+	}
+	
+	public void setRadio(float radio)
+	{
+		this.radio = radio;
+	}
+	
+	
+	@Override
+	public float calcularAreaFigura() {
+
+		return 4 * PI * radio * radio;
+	}
+
+}

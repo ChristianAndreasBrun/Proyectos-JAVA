@@ -1,0 +1,31 @@
+package brun.christian.damw.m03.uf02.t03.colecciones;
+
+public class Coche {
+
+	private int num;
+	private String nombre;
+	private int edad;
+
+	
+	public Coche(int num, String nombre, int edad)
+	{
+		this.num = num;
+		this.nombre = nombre;
+		this.edad = edad;
+	}
+	
+	public int getNum()
+	{
+		return num;
+	}
+	
+	public void setNum(int num)
+	{
+		this.num = num;
+	}
+	
+	public String getNombre()
+	{
+		
+	}
+}

@@ -1,0 +1,9 @@
+package brun.christian.damw.m03.uf02.c03.p01.controller;
+
+public class Figura3DController {
+
+	public void Cubo() 
+	{
+		
+	}
+}

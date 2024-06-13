@@ -1,0 +1,6 @@
+package christian.brun.domain;
+
+public class Sobremesa extends Ordenadores{
+
+	
+}

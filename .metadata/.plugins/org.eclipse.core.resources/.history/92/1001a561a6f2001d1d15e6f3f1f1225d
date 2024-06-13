@@ -1,0 +1,10 @@
+package christian.brun.damw.mf03.uf2.t02.poo;
+
+public class Ordenadores {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

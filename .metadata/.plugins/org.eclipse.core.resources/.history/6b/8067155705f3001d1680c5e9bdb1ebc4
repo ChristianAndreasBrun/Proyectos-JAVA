@@ -1,0 +1,12 @@
+package christian.brun.domain;
+
+public class Sobremesa extends Ordenadores{
+
+	float resultado;
+	
+	public void calcularPrecio() {
+			
+		resultado = precio + ram;
+		System
+	}
+}

@@ -1,0 +1,12 @@
+package brun.christian.damw.m03.uf02.c03.p01.app;
+
+import brun.christian.damw.m03.uf02.c03.p01.controller.Figura3DController;
+
+public class App {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Figura3DController figura3DController = new Figura3DController();
+	}
+
+}

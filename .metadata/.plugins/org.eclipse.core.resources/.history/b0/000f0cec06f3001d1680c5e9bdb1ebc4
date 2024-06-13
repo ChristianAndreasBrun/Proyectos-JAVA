@@ -1,0 +1,18 @@
+package christian.brun.view;
+
+import christian.brun.domain.*;
+
+public class View {
+
+	public static void main(String[] args) {
+		
+		Ordenadores sobremesa = new Sobremesa();
+		
+		sobremesa.setMarca("Asus");
+		sobremesa.setPrecio((float)400.99);
+		sobremesa.setRam(16);
+		sobremesa.setCapacidad(500);
+
+	}
+
+}

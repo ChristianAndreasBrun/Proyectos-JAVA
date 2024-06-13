@@ -1,0 +1,27 @@
+package brun.christian.dam.mf03.uf2.t05.lambdas;
+
+import m03uf2.c10.p1.ejemplo5.IEjemplo05;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// double operacion(double valor1, double valor2);
+		
+		IOperacionesMatematicasBasicas opera;
+		double resultado;
+		
+		opera = (v1, v2) -> v1 + v2;
+		resultado = opera.operacion(15.1, 3);
+		System.out.println(resultado);
+		System.out.println("---------------------------------------------");
+
+		
+		opera = (v1, v2) -> v1 - v2;
+		resultado = opera.operacion(10, 3);
+		System.out.println(resultado);
+		resultado = opera.operacion(10, 10);
+		System.out.println(resultado);
+		System.out.println("---------------------------------------------");
+	}
+
+}

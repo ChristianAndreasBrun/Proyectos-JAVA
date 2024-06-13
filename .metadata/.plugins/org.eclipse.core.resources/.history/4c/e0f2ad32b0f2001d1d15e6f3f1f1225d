@@ -1,0 +1,28 @@
+package christian.brun.domain;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class Biblioteca {
+
+	// - Atributos
+	private List<Libro> listaLibros;
+	private List<Usuario> listaUsuarios;
+	
+	// - Constructor
+	public Biblioteca() {
+        listaLibros = new ArrayList<Libro>();
+        listaUsuarios = new ArrayList<Usuario>();
+    }
+	
+	
+	
+	
+	// - METODOS -
+	// prestamo de un libro
+	public void addLibro(Libro libro) {
+
+		libros.add(libro);
+	}
+}

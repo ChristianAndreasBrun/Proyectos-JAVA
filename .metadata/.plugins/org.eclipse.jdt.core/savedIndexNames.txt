@@ -1,0 +1,8 @@
+INDEX VERSION 1.132+D:\4. Codding Enviroment Files\FP-GS DAW\M3 UF2 - Java 2\Proyectos JAVA\.metadata\.plugins\org.eclipse.jdt.core
+796492943.index
+2971151438.index
+555780930.index
+642600795.index
+2095639915.index
+1865797976.index
+2322185950.index

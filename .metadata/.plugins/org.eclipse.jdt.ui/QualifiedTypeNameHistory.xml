@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="m03uf02.c03.p1.model.domain.Rectangulo"/>
+    <fullyQualifiedTypeName name="m03uf02.c03.p1.model.domain.Cuadrado"/>
+    <fullyQualifiedTypeName name="m03uf02.c03.p1.model.domain.Triangulo"/>
+    <fullyQualifiedTypeName name="brun.christian.damw.m03.uf02.c03.p01.model.domain.Esfera"/>
+    <fullyQualifiedTypeName name="brun.christian.damw.m03.uf02.c03.p01.view.FiguraView"/>
+    <fullyQualifiedTypeName name="brun.christian.damw.m03.uf02.c03.p01.model.domain.Cubo"/>
+    <fullyQualifiedTypeName name="m03uf02.c03.p1.controller.Figura2DController"/>
+    <fullyQualifiedTypeName name="brun.christian.damw.m03.uf02.c03.p01.controller.Figura3DController"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="christian.brun.domain.EstadoLibro"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+</qualifiedTypeNameHistroy>

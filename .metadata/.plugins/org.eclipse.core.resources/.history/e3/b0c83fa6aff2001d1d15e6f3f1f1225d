@@ -1,0 +1,16 @@
+package christian.brun.domain;
+
+public class Biblioteca {
+
+	
+	
+	
+	
+	
+	// - METODOS -
+	// prestamo de un libro
+	public void addLibro(Libro libro) {
+
+		libros.add(libro);
+	}
+}

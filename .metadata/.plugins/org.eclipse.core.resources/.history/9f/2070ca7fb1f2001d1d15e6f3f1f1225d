@@ -1,0 +1,53 @@
+package christian.brun.domain;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class Biblioteca {
+
+	// - Atributos
+	private List<Libro> listaLibros;
+	private List<Usuario> listaUsuarios;
+	
+	// - Constructor
+	public Biblioteca() {
+        listaLibros = new ArrayList<Libro>();
+        listaUsuarios = new ArrayList<Usuario>();
+    }
+	
+	
+	
+	
+	// - METODOS -
+	//añadir libro
+	public void anadirLibro(Libro libro) {
+
+		listaLibros.add(libro);
+	}
+	
+	//eliminar libro
+	public void eliminarLibro(Libro libro) {
+		
+		Iterator<Libro> iteradorLibros = listaLibros.iterator();
+		
+		while (iteradorLibros.hasNext()) 
+		{
+			Libro i = iteradorLibros.next();
+			if (i.getIsbn().equals(libro.getIsbn()))
+			{
+				iteradorLibros.remove();
+				break;
+			}
+		}
+		
+	}
+	
+	//añadir usuario
+	public void anadirUsuario(Usuario usuario) {
+		
+		listaUsuarios.add(usuario);
+	}
+	
+	
+}

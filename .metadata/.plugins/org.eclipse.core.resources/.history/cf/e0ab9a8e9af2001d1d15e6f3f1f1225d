@@ -1,0 +1,23 @@
+package brun.christian.dam.mf03.uf2.t05.lambdas;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// double operacion(double valor1, double valor2);
+		
+		IOperacionesMatematicasBasicas opera;
+		double resultado;
+		
+		opera = (v1, v2) -> v1 + v2;
+		resultado = opera.operacion(15.1, 10);
+		System.out.println(resultado);
+		System.out.println("---------------------------------------------");
+
+		
+		opera = (v1, v2) -> v1 - v2;
+		resultado = opera.operacion(15.1, 10);
+		System.out.println(resultado);
+		System.out.println("---------------------------------------------");
+	}
+
+}

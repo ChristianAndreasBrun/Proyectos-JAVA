@@ -1,0 +1,18 @@
+package brun.christian.damw.m03.uf02.c03.p01.controller;
+
+import brun.christian.damw.m03.uf02.c03.p01.view.FiguraView;
+import brun.christian.damw.m03.uf02.c03.p01.model.domain.Cubo;
+
+//import m03uf02.c03.p1.model.domain.Triangulo;
+//import m03uf02.c03.p1.view.FiguraView;
+
+public class Figura3DController {
+
+	public void Cubo() 
+	{
+		FiguraView figuraView = new FiguraView();
+		Cubo triangulo = figuraView.getTriangulo();
+		float area = triangulo.calculaArea();
+		figuraView.mostrarInformacion("El area del trinagulo es: " + area);
+	}
+}

@@ -1,0 +1,6 @@
+package christian.brun.domain;
+
+public enum EstadoLibro {
+
+	Disponible, Prestado;
+}

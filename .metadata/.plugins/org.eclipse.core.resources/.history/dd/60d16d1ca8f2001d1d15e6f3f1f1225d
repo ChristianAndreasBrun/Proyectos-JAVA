@@ -1,0 +1,14 @@
+package christian.brun.domain;
+
+import java.time.LocalDate;
+
+public class Libro {
+
+	private String titulo;
+	private String autor;
+	private String isbn;
+	private String editorial;
+	private short numeroPaginas;
+	private EstadoLibro estado;
+	private LocalDate fechaEstado;
+}

@@ -1,0 +1,5 @@
+package brun.christian.dam.mf03.uf2.t05.lambdas;
+
+public interface IOperacionesMatematicasBasicas {
+
+}

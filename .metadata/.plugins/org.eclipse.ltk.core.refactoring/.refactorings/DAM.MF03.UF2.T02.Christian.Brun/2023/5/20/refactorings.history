@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;christian.brun&apos; to &apos;christian.brun.domain&apos;&#x0D;&#x0A;- Original project: &apos;DAM.MF03.UF2.T02.Christian.Brun&apos;&#x0D;&#x0A;- Original element: &apos;DAM.MF03.UF2.T02.Christian.Brun/src/christian.brun&apos;&#x0D;&#x0A;- Renamed element: &apos;DAM.MF03.UF2.T02.Christian.Brun/src/christian.brun.domain&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;christian.brun&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;christian.brun" name="christian.brun.domain" qualified="false" references="true" stamp="1684143232362" textual="false" version="1.0"/>
+</session>
